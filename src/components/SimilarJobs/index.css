@@ -1,0 +1,53 @@
+.similar-jobs-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+  margin-top: 20px;
+}
+
+.similar-job {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #202020;
+  border-radius: 10px;
+}
+
+.logo-title-rating {
+  display: flex;
+}
+
+.location-type {
+  display: flex;
+}
+
+.simi-description-heading {
+  margin-top: 15px;
+}
+
+.similar-description-text {
+  margin-top: 15px;
+  line-height: 2;
+}
+.footer-section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.location-container {
+  display: flex;
+  margin-right: 15px;
+}
+.icon {
+  margin-right: 5px;
+}
+
+.similar-job-heading {
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #ffffff;
+}

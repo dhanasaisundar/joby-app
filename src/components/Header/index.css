@@ -1,0 +1,44 @@
+.header-bg {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #202020;
+}
+
+.header-website-logo {
+  width: 15%;
+}
+
+.header-routing-container {
+  display: flex;
+  color: #ffffff;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-routing {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+}
+.logout-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.link-style {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}

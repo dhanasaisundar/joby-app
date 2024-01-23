@@ -1,0 +1,123 @@
+.job-list-container {
+  color: #f8fafc;
+  width: 100%;
+  background: transparent;
+  list-style-type: none;
+}
+.job-list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 15px;
+}
+.company-logo-image {
+  width: 8%;
+}
+.logo-and-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.title-and-rating {
+  margin-left: 8px;
+}
+.job-title {
+  font-weight: 'bolder';
+  margin-bottom: 5px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.rating-icon {
+  color: rgb(234, 212, 6);
+  margin-right: 5px;
+}
+.location-container {
+  display: flex;
+}
+.employment-type-container {
+  display: flex;
+}
+.package-and-location-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.location-and-employment-type {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.description-heading {
+  margin-top: 10px;
+}
+.description-text {
+  line-height: 2;
+  margin-top: 10px;
+}
+/**********************************************************/
+.search-container {
+  display: flex;
+  border: 2px solid #cbd5e1;
+  width: 50%;
+  justify-content: space-between;
+}
+.search-element {
+  background: none;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-btn {
+  background-color: #475569;
+  width: 10%;
+}
+.search-icon {
+  color: #fbf0f0;
+  font-weight: bold;
+}
+/*****************************************************/
+.jobs-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-btn {
+  background-color: #4f46e5;
+  padding: 10px;
+  color: #ffffff;
+}
+/***************************************************************/
+.link-style {
+  text-decoration: none;
+}
+/*********************************************************************/
+.no-jobs-container {
+  width: 100%;
+  margin-top: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+.no-jobs-heading {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
